@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:layout_marginTop="-80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edtEmail_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:hint="Nhập email"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/edtPass_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:inputType="textPassword"
+        android:hint="Nhập Password"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Re-Password"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/edtRePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:inputType="textPassword"
+        android:hint="Nhập lại Password"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/custombutton"
+        android:layout_marginTop="10dp"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:textAllCaps="true"/>
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:background="@drawable/custombutton"
+        android:layout_marginTop="10dp"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:textAllCaps="true"/>
+
+</LinearLayout>
